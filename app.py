@@ -67,6 +67,7 @@ def toggle_add_form():
 # --- HEADER ---
 st.title("📚 How EMA's First Oral Hearing Spotlighted Patient Collaboration")
 st.subheader("Increasing Recognition of Patient Engagement in EU Medical Regulation")
+st.subheader(" HTW Berlin - M8 Course Presentation References")
 
 # --- AUTH ---
 col1, col2 = st.columns([5, 1])
