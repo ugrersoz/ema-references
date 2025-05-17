@@ -67,7 +67,7 @@ def toggle_add_form():
 # --- HEADER ---
 st.title("📚 How EMA's First Oral Hearing Spotlighted Patient Collaboration")
 st.subheader("Increasing Recognition of Patient Engagement in EU Medical Regulation")
-st.subheader(" HTW Berlin - M8 Course Presentation References")
+st.subheader(" HTW Berlin - M8 Course Presentation References | Developed By Ugur Ersoz")
 
 # --- AUTH ---
 col1, col2 = st.columns([5, 1])
@@ -239,4 +239,4 @@ if uploaded_file:
         st.error(f"Error: {e}")
 
 # --- FOOTER ---
-st.markdown('<p style="text-align: center; font-size: 0.9rem; color: gray; margin-top: 3rem;">© 2025 | EMA Patient Engagement References Tool | Developed for academic purposes</p>', unsafe_allow_html=True)
+st.markdown('<p style="text-align: center; font-size: 0.9rem; color: gray; margin-top: 3rem;">© 2025 | EMA Patient Engagement References Tool | Developed for academic purposes | Developed by Ugur Ersoz</p>', unsafe_allow_html=True)
