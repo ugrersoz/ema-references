@@ -1,1 +1,139 @@
-[{"id": "01cf6d7f-e492-49fc-85c8-66e279526799", "title": "Machine learning in healthcare: Uses, benefits and pioneers in the field", "type": "Website", "url": "https://eithealth.eu/news-article/machine-learning-in-healthcare-uses-benefits-and-pioneers-in-the-field/", "description": "How is machine learning used in medicine? ", "date": "2025-05-07 17:44:53", "updated": "2025-05-07 18:00:09"}]
+[
+    {
+        "id": "01cf6d7f-e492-49fc-85c8-66e279526799",
+        "title": "Machine learning in healthcare: Uses, benefits and pioneers in the field",
+        "type": "Website",
+        "url": "https://eithealth.eu/news-article/machine-learning-in-healthcare-uses-benefits-and-pioneers-in-the-field/",
+        "description": "How is machine learning used in medicine? ",
+        "date": "2025-05-07 17:44:53",
+        "updated": "2025-05-07 18:00:09"
+    },
+    {
+        "id": "51abeb1c-883f-425b-b689-7389a4b9c282",
+        "title": "Patients and consumers",
+        "type": "Report",
+        "url": "https://www.ema.europa.eu/en/partners-networks/patients-consumers",
+        "description": "",
+        "date": "2025-05-17 12:40:02"
+    },
+    {
+        "id": "44ce7901-df25-4d51-93f4-340daeccdd98",
+        "title": "EFPIA Position on Transparency of Patient Evidence in Regulatory Decision Making and Product Information  ",
+        "type": "Report",
+        "url": "https://www.efpia.eu/media/676506/final-efpia-position-on-transparency-of-patient-evidence-in-regulatory-decision-making-and-product-information.pdf",
+        "description": "",
+        "date": "2025-05-17 12:40:58"
+    },
+    {
+        "id": "f1ae7b71-d3e7-4538-880a-db4fcfcf9003",
+        "title": "European Medicines Agency updates its framework on engagement with patients and consumers, with the objective to strengthen the patient voice in its regulatory activities",
+        "type": "Website",
+        "url": "https://idf.org/europe/news/european-medicines-agency-updates-its-framework-on-engagement-with-patients-and-consumers-with-the-objective-to-strengthen-the-patient-voice-in-its-regulatory-activities/",
+        "description": "",
+        "date": "2025-05-17 12:42:38"
+    },
+    {
+        "id": "194b5824-bb38-466b-bf37-4f7a96cbcd86",
+        "title": "Artificial intelligence tools in supporting healthcare professionals for tailored patient care",
+        "type": "Journal Paper",
+        "url": "https://www.nature.com/articles/s41746-025-01604-3",
+        "description": "",
+        "date": "2025-05-17 12:43:23"
+    },
+    {
+        "id": "3fd1ce50-9f1d-4089-884b-c3f13fe1ee79",
+        "title": "How Can the Pharmaceutical Industry Measure the Value of Patient Engagement?",
+        "type": "Website",
+        "url": "https://globalforum.diaglobal.org/issue/june-2022/how-can-the-pharmaceutical-industry-measure-the-value-of-patient-engagement/",
+        "description": "",
+        "date": "2025-05-17 12:45:14"
+    },
+    {
+        "id": "99518bdf-6bd5-4a24-a1ec-d9d318881918",
+        "title": "Understanding the Benefits of Systematic and Consistent Patient Engagement",
+        "type": "Website",
+        "url": "https://alirahealth.com/education-hub/benefits-of-systematic-and-consistent-patient-engagement/",
+        "description": "",
+        "date": "2025-05-17 12:45:37"
+    },
+    {
+        "id": "4def5064-4c67-4311-8848-6fcacd2dfa45",
+        "title": "The Patient Engagement Framework: a holistic approach to patient inclusion",
+        "type": "Website",
+        "url": "https://www.iqvia.com/blogs/2022/10/the-patient-engagement-framework-a-holistic-approach-to-patient-inclusion",
+        "description": "",
+        "date": "2025-05-17 12:45:55"
+    },
+    {
+        "id": "2c9020c2-3501-495e-8359-7d32069b4b32",
+        "title": "Patient engagement: accelerating progress in a spirit of partnership",
+        "type": "Website",
+        "url": "https://www.efpia.eu/news-events/the-efpia-view/blog-articles/patient-engagement-accelerating-progress-in-a-spirit-of-partnership/",
+        "description": "",
+        "date": "2025-05-17 12:46:11"
+    },
+    {
+        "id": "238d785b-cf38-4971-815f-6c5584b6fee5",
+        "title": "Reliable medication reminders for you",
+        "type": "Website",
+        "url": "https://www.mytherapyapp.com/",
+        "description": "",
+        "date": "2025-05-17 12:47:29"
+    },
+    {
+        "id": "9f449c17-2952-4ee9-a2b2-c8e684bd9248",
+        "title": "Improving patient pathways with AI",
+        "type": "Report",
+        "url": "https://about.ada.com/improving-patient-pathways-with-ada-digital-triage/",
+        "description": "",
+        "date": "2025-05-17 12:47:46"
+    },
+    {
+        "id": "6ac0ae48-6864-4f89-8b72-a42b2286bc6e",
+        "title": "Patients\u2019 Utilization and Perception of an Artificial Intelligence\u2013Based Symptom Assessment and Advice Technology in a British Primary Care Waiting Room: Exploratory Pilot Study",
+        "type": "Journal Paper",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7382011/",
+        "description": "",
+        "date": "2025-05-17 12:49:10"
+    },
+    {
+        "id": "df8b45ae-af17-41e4-bbcc-4d3b557720c2",
+        "title": "Advancing Digital Health Solutions Alongside Ada Health Putting Your Health in Your Hands",
+        "type": "Website",
+        "url": "https://www.bayer.com/en/news-stories/putting-your-health-in-your-hands",
+        "description": "",
+        "date": "2025-05-17 12:49:32"
+    },
+    {
+        "id": "c9b3dc80-06c9-44e0-87b6-95f5fecb2854",
+        "title": "NDSG workplan 2025-2028 Data and AI in medicines regulation",
+        "type": "Report",
+        "url": "https://www.ema.europa.eu/en/documents/other/network-data-steering-group-workplan-2025-2028_en.pdf",
+        "description": "",
+        "date": "2025-05-17 12:51:53"
+    },
+    {
+        "id": "f816fad6-7415-42eb-864d-75735a000eda",
+        "title": "Berlin-based healthtech startup Ada Health closes Series B at over \u20ac105 million to accelerate growth",
+        "type": "Website",
+        "url": "https://www.eu-startups.com/2022/02/berlin-based-healthtech-startup-ada-health-closes-series-b-at-over-e105-million-to-accelerate-growth/",
+        "description": "",
+        "date": "2025-05-17 12:52:20"
+    },
+    {
+        "id": "de3ad5f5-3bb2-43cd-b28c-a997e3fd66aa",
+        "title": "EMA's Framework for Interaction with Patients and Consumers and their Organisations (2022)",
+        "type": "Report",
+        "url": "https://www.ema.europa.eu/system/files/documents/other/updated_engagement_framework_-_ema_and_patients_consumers_and_their_organisations_2022-en.pdf",
+        "description": "",
+        "date": "2025-05-17 12:53:13"
+    },
+    {
+        "id": "ab0d379b-b316-4633-8b0f-f56ffff6df72",
+        "title": "Public hearing on valproate ",
+        "type": "Report",
+        "url": "https://www.ema.europa.eu/en/documents/other/public-hearing-valproate-written-interventions_en.pdf",
+        "description": "",
+        "date": "2025-05-17 12:53:48"
+    }
+]
