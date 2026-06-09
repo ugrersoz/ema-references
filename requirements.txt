@@ -1,0 +1,7 @@
+# EMA References — runtime dependencies
+#
+# Pin to a minor-version floor so Streamlit Cloud and local installs stay
+# in sync. Bump deliberately when you upgrade.
+
+streamlit>=1.32,<2.0
+pandas>=2.0,<3.0

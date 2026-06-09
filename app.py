@@ -13,8 +13,35 @@ st.set_page_config(
     layout="wide"
 )
 
-# Create a password for admin access
-PASSWORD = "admin123"
+
+def _load_admin_password() -> str:
+    """
+    Resolve the admin password from runtime configuration.
+
+    Lookup order:
+      1. Streamlit secrets (`.streamlit/secrets.toml` locally, or the
+         "App settings → Secrets" panel on Streamlit Cloud).
+      2. The ADMIN_PASSWORD environment variable.
+      3. An empty string — which makes the login form unable to grant
+         admin access at all. We fail closed on purpose.
+
+    This used to be a hard-coded `PASSWORD = "admin123"` literal in the
+    source. That credential is now considered compromised: it is in this
+    repository's public Git history. Rotate it on Streamlit Cloud
+    immediately and never put a real password back into the code.
+    """
+    try:
+        secret = st.secrets.get("ADMIN_PASSWORD")
+        if secret:
+            return str(secret)
+    except (FileNotFoundError, KeyError, Exception):
+        # st.secrets raises if no secrets.toml is present and no Cloud
+        # secrets are configured. Fall through to the env var.
+        pass
+    return os.environ.get("ADMIN_PASSWORD", "")
+
+
+PASSWORD = _load_admin_password()
 
 # Path to store references data
 DATA_FILE = "references_data.json"
@@ -89,7 +116,16 @@ if not st.session_state['authenticated'] and st.session_state.get('show_login', 
         password = st.text_input("Enter admin password", type="password")
         login_submit = st.form_submit_button("Login")
         if login_submit:
-            if password == PASSWORD:
+            # Fail-closed: if no admin password has been configured (empty
+            # secret/env), refuse login outright — never compare against ""
+            # and never log a confirmation that might double as an
+            # admin-mode-available signal.
+            if not PASSWORD:
+                st.error(
+                    "Admin login is not available on this deployment. "
+                    "An ADMIN_PASSWORD secret has not been configured."
+                )
+            elif password == PASSWORD:
                 st.session_state['authenticated'] = True
                 st.session_state['show_login'] = False
                 st.success("Logged in successfully!")
